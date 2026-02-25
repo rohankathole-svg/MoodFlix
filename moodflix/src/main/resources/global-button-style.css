@@ -1,0 +1,27 @@
+/* Global button style for Moodflix */
+
+.button {
+    -fx-background-radius: 20;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.10), 4, 0, 0, 2);
+    -fx-background-color: linear-gradient(to right, #667eea, #764ba2);
+    -fx-text-fill: white;
+    -fx-padding: 10 24;
+    -fx-font-size: 15px;
+    -fx-border-radius: 20;
+    -fx-border-color: transparent;
+    -fx-transition: all 0.2s;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to right, #a78bfa, #667eea);
+    -fx-effect: dropshadow(gaussian, #764ba2, 8, 0, 0, 2);
+    -fx-translate-y: -2px;
+}
+
+.button:pressed {
+    -fx-background-color: linear-gradient(to right, #5a189a, #764ba2);
+    -fx-effect: dropshadow(gaussian, #333333, 2, 0, 0, 1);
+    -fx-translate-y: 1px;
+} 
